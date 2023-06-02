@@ -1,0 +1,9 @@
+.page{
+    @apply w-10 h-10  font-bold flex items-center justify-center text-lg text-[#292b2c] cursor-pointer 
+}
+.active {
+    @apply bg-[#188897] rounded-md text-white
+}
+button:disabled{
+    @apply cursor-not-allowed
+}

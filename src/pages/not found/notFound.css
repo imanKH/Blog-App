@@ -1,0 +1,6 @@
+.not-found{
+    height: calc(100vh - 130px);
+}
+.not-found-link{
+    padding:5px 10px;
+}

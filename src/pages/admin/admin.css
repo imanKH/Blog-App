@@ -1,0 +1,20 @@
+/*  Media queries */
+@media(max-width :1200px){ 
+  .admin-main-card{
+    @apply w-[44%];
+  }
+}
+@media(max-width :990px){ 
+    .admin-sidebar{
+       @apply hidden
+    }
+   .add-category{
+ @apply w-full m-0;
+
+   }
+}
+@media(max-width :520px){ 
+    .admin-main-card{
+       @apply w-full;
+    }
+}

@@ -1,0 +1,22 @@
+/*  Media queries */
+@media(max-width :990px){ 
+    .profile-post-list{
+        @apply   w-full }
+}
+@media(max-width :520px){ 
+    .profile{
+       @apply p-[15px];
+    }
+    .profile-bio{
+        @apply text-center;
+    }
+
+}
+.profile-loader{
+    min-height: calc(100vh - 130px);
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}

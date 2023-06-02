@@ -1,0 +1,61 @@
+th, td {
+    @apply border border-gray-400 p-5;
+}
+
+th {
+    @apply bg-[#1d2d3d] text-white
+}
+
+tr:nth-child(even) {
+    @apply bg-white
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.table-button-group button:last-child {
+    @apply bg-[red];
+}
+
+.table-button-group button:first-child:hover {
+    @apply bg-[#27ae60];
+}
+
+.table-button-group button:last-child:hover {
+    @apply bg-[red];
+}
+
+/* .. Media Query .. */
+@media(max-width :720px) {
+    .table-wrapper {
+        @apply p-[15px]
+    }
+
+    .table-button-group {
+        @apply flex-wrap
+    }
+
+    .table-button-group button {
+        @apply w-full my-5
+    }
+
+    th, td {
+        @apply p-2.5
+    }
+    .table-image{
+        @apply flex-col justify-center items-center
+    }
+}
+@media(max-width :520px) {
+    .table-wrapper {
+        @apply p-2.5
+    }
+
+  
+    th, td {
+        @apply p-[2px]
+    }
+
+
+}

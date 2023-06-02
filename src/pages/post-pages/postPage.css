@@ -1,0 +1,8 @@
+ @media(max-width :990px){ 
+    .post-page {
+        @apply   flex-col items-center }
+}
+@media(max-width :520px){ 
+    .post-page {
+        @apply   p-[15px]}
+} 

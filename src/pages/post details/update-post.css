@@ -1,0 +1,5 @@
+/*  Media queries */
+@media(max-width :820px){ 
+    .update-post-form {
+        @apply   w-[90%] }
+}

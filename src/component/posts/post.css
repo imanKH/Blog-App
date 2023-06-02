@@ -1,0 +1,9 @@
+/*  Media queries */
+@media(max-width :720px){ 
+    .post-item{
+        @apply p-2.5
+    }
+    .post-item-image{
+        object-fit: cover;
+    }
+}

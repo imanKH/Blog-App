@@ -1,0 +1,17 @@
+/*  Media queries */
+@media(max-width :820px){ 
+    .post-details {
+        @apply   w-full }
+}
+
+@media(max-width :520px){ 
+    .post-details {
+        @apply  p-[15px]  }
+    
+    .post-details-image{
+      @apply object-cover
+    }
+}
+
+
+

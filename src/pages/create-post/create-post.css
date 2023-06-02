@@ -1,0 +1,6 @@
+/*  Media queries */
+@media(max-width :820px){ 
+    .create-post-form {
+        @apply  w-full  
+    }
+}

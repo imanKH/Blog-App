@@ -1,0 +1,27 @@
+.sidebar-link{
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 5% 100%, 0% 50%, 5% 0);
+}
+
+.sidebar-link::after{
+    content: "";
+  @apply w-[7px] h-[7px] rounded-[50%] absolute left-[15px] top-0 bottom-0 m-auto bg-white
+}
+
+/*  Media queries */
+@media(max-width :990px){ 
+    .sidebar{
+        @apply ml-0 w-full
+    }
+    .sidebar-link::after{
+      @apply  left-[30px]
+    }
+}
+
+@media(max-width :520px){ 
+    .sidebar-link::after{
+      @apply  left-[20px]
+    }
+
+}
+
+
